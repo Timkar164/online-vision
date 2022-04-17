@@ -1,0 +1,100 @@
+.box {
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   margin-left: 50px;
+   margin-right: 50px;
+   padding: 0;
+   max-height: 450px;
+   max-width: 450px;
+   height: 50vh;
+   width: 50vw;
+   background: #221836;
+   box-shadow: 0 0 20px #847DD4;
+   border-radius: 15px;
+ }
+ 
+ .text {
+   padding-top: 30px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 64px;
+   line-height: 87px;
+ 
+   text-align: center;
+ 
+   color: #FFFFFF;
+ 
+   text-shadow: 0 0 20px #A864DD;
+ }
+ 
+ .text-ghostly {
+   font-style: normal;
+   font-weight: 800;
+   font-size: 160px;
+   line-height: 218px;
+   text-align: center;
+   user-select: none;
+   color: rgba(255, 255, 255, 0.2);
+ }
+ 
+ 
+ @font-face {
+   font-family: "Open Sans"; /* Гарнитура шрифта */
+   src: url(../../../assets/fonts/OpenSans-Light.ttf);
+ }
+ 
+ .row {
+   flex-wrap: nowrap;
+ }
+ 
+ .background{
+   background-image: url(../../../assets/img/background2.jpg);
+   background-position: bottom;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100%;
+   backdrop-filter: blur(30px);
+ }
+ 
+ 
+ .img {
+   height: 50%;
+   width: 50%;
+   margin: auto 0;
+ }
+ 
+ .flex-tile {
+   padding: 2%;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   height: 100%;
+ }
+ 
+ .flex-tile-row{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   height: 100%;
+ }
+ 
+ .circle{
+   width: 50px;
+   height: 50px;
+   background: #ffffff;
+   border-radius: 50%;
+ }
+ @media screen and (max-width:480px) {
+   .text { font-size:110%; } /* Увеличить размер шрифта */
+   .text-ghostly { font-size:110%; }
+ }
+ 
+ @media screen and (max-width:1080px) {
+   .text { font-size:500%; } /* Увеличить размер шрифтаe */
+   .text-ghostly { font-size:500%; } /* Увеличить размер шрифтаe */
+ }
+ 
+ 

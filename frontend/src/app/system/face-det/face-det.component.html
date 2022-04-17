@@ -1,0 +1,52 @@
+
+<div class="back">
+    <div class="container">
+       <system-head></system-head>
+       <main class="info">
+          <div class="main-info">
+             <div class="info-age-s">
+                <button class="on-all" *ngFor="let item of array.slice(0, array.length / 2)">{{item}}</button>
+             </div>
+             <div class="video-transl">
+                <div class="face-det">
+                    <video id="vid" autoplay muted></video>
+                    <canvas id="cvs"></canvas>
+                </div>
+                <div class="atr">
+                   <p>
+                     Пол: {{gender}}
+                   </p>
+                   <p>
+                     Возраст: {{age}}
+                   </p>
+                   <p>
+                     Счастливый: {{happy}}
+                   </p>
+                   <p>
+                     Нейтральный: {{neutral}}
+                   </p>
+                   <p>
+                     Грустный: {{sad}}
+                   </p>
+                   <p>
+                     Злой: {{angry}}
+                   </p>
+                   <p>
+                     Испуганный: {{fearful}}
+                   </p>
+                   <p>
+                     Отвращение: {{disgusted}}
+                   </p>
+                   <p>
+                     Удивлённый: {{surprised}}
+                   </p>
+                </div>
+             </div>
+             <div class="setting">
+               <button class="on-all" *ngFor="let item of array.slice(array.length / 2, array.length)">{{item}}</button>
+             </div>
+          </div>
+ 
+       </main>
+    </div>
+ </div>

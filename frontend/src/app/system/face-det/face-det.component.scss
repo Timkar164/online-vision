@@ -1,0 +1,88 @@
+.face-det {
+    position: relative;
+    width: 100%;
+}
+video {
+    width: 100%;
+
+}
+#cvs{
+    position: inherit;
+    width: 100%;
+    top: -50%;
+}
+
+.back{
+	width: 100%;
+	background: #0F051C;
+	margin: 0 auto;
+	color:#FFFFFF;
+	background-image: url(../../../assets/img/backgr1.jpg);
+	background-size: cover;
+	background-color:rgba(0, 0, 0, .5);
+	backdrop-filter: blur(30px);
+   height: 100vh;
+   
+}
+.container{
+ max-width: 90%;
+}
+
+.header{
+	padding: 5% 0;
+}
+.choose{
+	display: flex;
+	justify-content: space-between;
+}
+.choose img {
+   width: 124px;
+   height: 100%;
+}
+.info-age-s,.video-transl,.setting{
+	margin: 0 2% 0 2%;
+	background: #251C37;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 25px #6151EB;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+    max-height: 400px;
+	flex-direction: column;
+	position: relative;
+}
+.setting ,.info-age-s{
+	width: 23%;
+}
+.traslate{
+	margin: 18% 0 7% 0;
+}
+.comments{
+	margin-bottom: 5%;
+	Font-size: 30px
+}
+.main-info{
+	display: flex;
+	justify-content: center;
+}
+.sex ,.age, .on-all,.face_,.statistic,.off-all{
+	background: #6151EB;
+	border-radius: 20px;
+	width: 80%;
+	border: none;
+	color:#FFFFFF;
+	height: 16%;
+	margin: 6% auto;
+}
+
+.atr {
+	position: absolute;
+	bottom: 5px;
+}
+
+.atr > p
+{
+	padding: 0;
+	font-size: 10px;
+}

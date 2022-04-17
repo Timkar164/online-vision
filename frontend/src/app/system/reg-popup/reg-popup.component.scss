@@ -1,0 +1,81 @@
+.back{
+	width: 100%;
+	margin: 0 auto;
+	color:#FFFFFF;
+	padding:0;
+}
+.container{
+ max-width: 55%;
+ border-radius:20px;
+ background-color: #251C37;
+ padding:0 0 ;
+ margin-top:0 ;
+}
+
+.header{
+	background-color: rgba(130, 122, 225, 0.36);
+	font-size: 48px;	
+}
+.empty_block{
+	height: 40px;
+}
+.sing_txt{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.sign_in_block{
+	margin: 0 auto;
+	background: #251C37;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	flex-direction: column;
+}
+.main-form{
+	width: 90%;
+}
+.callb-send{
+	margin-bottom:10% ;
+}
+
+.input-form{
+	margin:7% 0 10% 0 ;
+	width: 100%;
+}
+.form-text{
+	margin:4% 0;
+	width: 100%;
+	border-radius:20px;
+	border:none;
+	padding:2% 0 2% 2%;
+	text-align: center;
+	font-size: 34px;
+	background-color: #251C37;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 25px #6151EB;
+}
+.well{
+	background: #6151EB;
+	border-radius: 20px;
+	width: 68%;
+	border: none;
+	color:#FFFFFF;
+	height: 22%;
+	margin: 0 auto;
+	Font-size: 24px;
+	display: block;
+	margin:0 auto;
+	padding:4% 6%;
+}
+.form_{
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 4%;
+}
+.your_passw,.your_log{
+	margin: 0 auto;
+	font-size: 36px;
+}

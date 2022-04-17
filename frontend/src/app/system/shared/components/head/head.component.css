@@ -1,0 +1,11 @@
+.header{
+	padding: 5% 0;
+}
+.choose{
+	display: flex;
+	justify-content: space-between;
+}
+.choose img {
+   width: 124px;
+   height: 100%;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "hackaton-api",
+  "version": "1.0.0",
+  "description": "Express API for our project on hackaton",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/Timkar164/online-vision-hack/-/tree/API"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.3"
+  },
+  "type": "module"
+}
